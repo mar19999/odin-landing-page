@@ -10,9 +10,7 @@ body {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    /* padding: 24px 48px; */
     padding: 24px 288px;
-    /* flex-shrink: 0; */
     gap: 104px;
     height: 450px;
 }
@@ -143,13 +141,37 @@ button {
 }
 
 .call {
-    padding: 0 288px;
+    padding: 180px 288px;
 }
 
 .call-content {
     display: flex;
     background-color: #3882F6;
+    padding: 50px 140px;
+    justify-content: space-between;
+    border-radius: 8px;
+    color: #F9FAF8;
 }
 
+.call-text {
+    font-size: 18px;
+    /* padding: 0 70px; */
+}
 
+.call-text-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-content button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB;
+    padding: 25px;
+}
 
